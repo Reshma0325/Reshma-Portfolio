@@ -1,0 +1,283 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Reshma</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+</head>
+<body>
+<div id="header">
+    <div class="container">
+       <nav>
+        <img src="images/logo.png" alt="logo">
+        <ul id="sidemenu">
+            <li><a href="#about">About</a></li>
+            <li><a href="#portfolio">Projects</a></li>
+            <li><a href="#experience">Experience</a></li>
+            <li><a href="#certification">Certifications</a></li>
+            <li><a href="#contact">Contact</a></li>
+            <i class="fas fa-times" onclick="closemenu()"></i>
+        </ul>
+        <i class="fas fa-bars" onclick="openmenu()"></i>
+       </nav> 
+       <div class="profile-photo">
+        <img src="images/background.png">
+      </div>
+       <div class="header-text">
+        <p>Software Developer</p>
+        <h1>Hi, I'm <span>Reshma</span></h1>
+       </div>
+    </div>
+</div>
+<!---------about---------->
+
+<div id="about">
+    <div class="container">
+                <h1 class="sub-title">About Me</h1><br>
+                <p>Hello! I'm Reshma, I am a passionate Software Developer with a strong affinity for computers, seeking to leverage my expertise and knowledge in the field. I completed my MSc in Computer Science from St. Xavier's College (Autonomous), Palayamkottai, where I gained in-depth knowledge and hands-on experience in various aspects of software development. I am dedicated to creating innovative solutions that drive growth and success.    
+                </p>
+                <div class="tab-titles">
+                    <p class="tab-links active-link" onclick="opentab('skill')">Skills</p>
+                    <p class="tab-links " onclick="opentab('education')">Education</p>
+                </div>
+                <div class="tab-contents active-tab" id="skill">
+                    <ul>
+                        <li><span>Programming Languages</span><br>Proficient in PHP, C, C++, and JavaScript</li>
+                        <li><span>Web Technologies</span><br>Experienced with HTML, CSS, and React Native</li>
+                        <li><span>Database Management</span><br> Skilled in using MySQL for database solutions</li>
+                        <li><span>Frameworks</span><br>Familiar with Bootstrap, Laravel for efficient and scalable web applications</li>
+                    </ul>
+                </div>
+                <div class="tab-contents" id="education">
+                    <ul>
+                        <li><span>2022 - 2024</span><br>Master of Science in Computer Science<br>St.Xavier's College(Autonomous),Palayamkottai,Tirunelveli<br>Grade - 9.1</li>
+                        <li><span>2019 - 2022</span><br>Bachelor of Science in Computer Science<br>St.Xavier's College(Autonomous),Palayamkottai,Tirunelveli<br>Grade - 8.7</li>
+                    </ul>
+                </div>
+    </div>
+</div>
+
+<!---------projects---------->
+
+<div id="portfolio">
+    <div class="container">
+        <h1 class="sub-title">Projects</h1><br>
+        <div class="experience-item">
+            <div class="certification">
+                <div class="certification-icon">
+                    <img src="images/food.png" alt="Project 1">
+                </div>
+                <div class="certification-content">
+                    <h2>Online Food Recipe System</h2>
+                    <p>PHP | MySQL | JavaScript | Ajax | Bootstrap | HTML5 | CSS3 </p><br>
+                    <a href="https://github.com/Reshma0325/Online-Food-Recipe" target="_blank" class="certification-link">Show Projects <i class="fas fa-external-link-alt"></i></a>
+                </div>
+            </div>
+           <div class="experience-details">
+             <p>An online food recipe system is a web platform allowing users to browse, search and save recipes. It
+                provides features like user registration, bookmarking, ratings, and reviews, aiming to enhance cooking
+                experiences and culinary exploration.</p>
+           </div>
+        </div>
+        <br><br><br><br>
+
+        <div class="experience-item">
+            <div class="certification">
+                <div class="certification-icon">
+                    <img src="images/student_attendance.png" alt="Project 2">
+                </div>
+                <div class="certification-content">
+                    <h2>Attendance Management System</h2>
+                    <p>PHP | MySQL | Bootstrap | HTML5 | CSS3</p><br>
+                    <a href="https://github.com/Reshma0325/Student-Attendance" target="_blank" class="certification-link">Show Projects <i class="fas fa-external-link-alt"></i></a>
+                </div>
+            </div>
+            <div class="experience-details">
+                <p>An attendance management system automates tracking and monitoring of student or employee
+                    attendance, offering features like authentication, reporting, and integration with other systems. Its aim is
+                    to streamline attendance monitoring, reduce errors, and enhance organizational efficiency and
+                    accountability.</p>
+            </div>
+        </div>
+        <br><br><br><br>
+
+        <div class="experience-item">
+            <div class="certification">
+                <div class="certification-icon">
+                    <img src="images/doctorapp.png" alt="Project 3">
+                </div>
+                <div class="certification-content">
+                    <h2>Doctor Appointment System</h2>
+                    <p>PHP | MySQL | JavaScript | Bootstrap | HTML5 | CSS3</p><br>
+                    <a href="https://github.com/Reshma0325/Doctor-Appointment" target="_blank" class="certification-link">Show Projects <i class="fas fa-external-link-alt"></i></a>
+                </div>
+            </div>
+            <div class="experience-details">
+                <p>A doctor appointment system automates scheduling and management of appointments between
+                    patients and healthcare providers, featuring patient registration, appointment scheduling, doctor
+                    availability management and billing. Its aim is to streamline the booking process, minimize conflicts, and
+                    improve healthcare service efficiency.</p>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-----------Experience---->
+
+<div id="experience">
+    <div class="container">
+        <h1 class="sub-title">Experience</h1><br>
+        <div class="experience-item">
+            <div class="certification">
+                <div class="certification-icon">
+                    <img src="images/reshma.png" alt="internship certificate" style="width: 80%;">
+                </div>
+                <div class="certification-content">
+                    <h2>Software Developer Intern</h2>
+                    <p>Acme Infotek, Tirunelveli</p><br>
+                    <a href="https://drive.google.com/file/d/1KiOcWOkqRYl3UPJzZXA5Rw2SwF0ZeoKA/view?usp=drive_link" target="_blank" class="certification-link">View Certificate <i class="fas fa-external-link-alt"></i></a>
+                </div>
+            </div>
+           <div class="experience-details">
+             <p>Thrilled to begin my journey as a Software Developer Intern at Acme Infotek, focusing on Web Development! Excited to learn and contribute to innovative projects that make a real-world impact. Grateful for this opportunity to grow and thrive in a dynamic tech environment! </p>
+           </div>
+        </div>
+    </div>
+</div><br><br><br><br>
+
+<!-----------Certification---->
+
+<div id="certification">
+    <div class="container">
+        <h1 class="sub-title">Certifications</h1><br>
+        <div class="experience-item">
+            <div class="certification">
+                <div class="certification-icon">
+                    <img src="images/automation.png" alt="automation certificate " style="max-width: 50%;">
+                </div>
+                <div class="certification-content">
+                    <h2>Automation Anywhere Certified RPA Bot Aspirant</h2>
+                    <p>Issued By : Automation Anywhere</p><br>
+                    <a href="https://drive.google.com/drive/folders/1IEmBsDecmhpW-IkRYgBzscryM6wHtCWJ?usp=drive_link" target="_blank" class="certification-link">View Certificate <i class="fas fa-external-link-alt"></i></a>
+                </div>
+            </div>
+            <div class="experience-details">
+                <p>Robotic Process Automation (RPA) · Automating Tasks Using the Automation 360 Universal Recorder · Automating Tasks Using the Automation 360 Excel Advanced Actions · Hello Automation 360 Bot: Getting Started with Building Bots · Building Resilient Bots Using Automation 360 · Building Scalable Bots Using Automation 360</p>
+            </div>
+        </div>
+        <br><br><br><br>
+        <div class="experience-item">
+            <div class="certification">
+                <div class="certification-icon">
+                    <img src="images/cisco.png" alt="cisco certificate" style="width: 80%;">
+                </div>
+                <div class="certification-content">
+                    <h2>Cisco Cybersecurity Essentials</h2>
+                    <p>Issued By : Cisco Networking Academy</p><br>
+                    <p>Cybersecurity</p><br>
+                    <a href="https://drive.google.com/drive/folders/1K43iHGCAfG19cL8GLWeyfZo5pZNcgrd1?usp=drive_link" target="_blank" class="certification-link">View Certificate <i class="fas fa-external-link-alt"></i></a>
+                </div>
+            </div>
+        </div>
+        <br><br>
+        <div class="experience-item">
+            <div class="certification">
+                <div class="certification-icon">
+                    <img src="images/ict.png" alt="mathworks certificate" style="width: 80%;">
+                </div>
+                <div class="certification-content">
+                    <h2>ICT Academy Certificate of Recognition</h2>
+                    <p>Issued By : ICT Academy</p><br>
+                    <a href="https://drive.google.com/file/d/1KdsjeVYKTVRAwVT0OXw8pjOzqdbcGXp5/view?usp=drive_link" target="_blank" class="certification-link">View Certificate <i class="fas fa-external-link-alt"></i></a>
+                </div>
+            </div>
+        </div>
+        <br><br>
+        <div class="experience-item">
+            <div class="certification">
+                <div class="certification-icon">
+                    <img src="images/mathworks.png" alt="ict certificate" style="width: 80%;">
+                </div>
+                <div class="certification-content">
+                    <h2>Mathworks Image Processing Onramp</h2>
+                    <p>Issued By : MathWorks</p><br>
+                    <a href="https://drive.google.com/drive/folders/1KTzAd5kCGcNKgkUNV2qHLO7pyFrGnJFU?usp=drive_link" target="_blank" class="certification-link">View Certificate <i class="fas fa-external-link-alt"></i></a>
+                </div>
+            </div>
+        </div>
+        <br><br>
+        <div class="experience-item">
+            <div class="certification">
+                <div class="certification-icon">
+                    <img src="images/Python for Data Science.jpg" alt="nptel certificate" style="width: 80%;">
+                </div>
+                <div class="certification-content">
+                    <h2>NPTEL - Python for Data ScienceNPTEL - Python for Data Science</h2>
+                    <p>Indian Institute of Technology, Madras</p><br>
+                    <a href="https://drive.google.com/file/d/16tJuJTemwYfA03HeU_xs50Y0fITw4XtU/view?usp=drive_link" target="_blank" class="certification-link">View Certificate <i class="fas fa-external-link-alt"></i></a>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-----------Contact---->
+<div id="contact">
+    <div class="container">
+      <h1>Contact Me</h1><br><br>
+      <div class="contact-info">
+        <div class="contact-item">
+          <a href="mailto:reshmasri310@gmail.com">
+            <i class="fas fa-envelope"></i><br>
+            reshmasri310@gmail.com
+          </a>
+        </div>
+        <div class="contact-item">
+          <a href="https://www.linkedin.com/in/reshma-ganesan0325/">
+            <i class="fab fa-linkedin"></i><br>
+            reshma-ganesan0325
+          </a>
+        </div>
+        <div class="contact-item">
+          <a href="https://github.com/Reshma0325">
+            <i class="fab fa-github"></i><br>
+            Reshma0325
+          </a>
+        </div>
+      </div>
+      <a href="images/myresume.pdf" download class="btn">Download CV</a>
+    </div>
+</div>
+  
+
+
+<script>
+    var tablinks = document.getElementsByClassName("tab-links");
+    var tabcontents = document.getElementsByClassName("tab-contents");
+
+    function opentab(tabname){
+        for(tablink of tablinks){
+            tablink.classList.remove("active-link");
+        }
+        for(tabcontent of tabcontents){
+            tabcontent.classList.remove("active-tab");
+        }
+        event.currentTarget.classList.add("active-link");
+        document.getElementById(tabname).classList.add("active-tab");
+    }
+</script>
+<script>
+    var sidemenu = document.getElementById("sidemenu");
+    
+    function openmenu(){
+        sidemenu.style.right = "0";
+    }
+    function closemenu(){
+        sidemenu.style.right = "-200px";
+    }
+</script>
+</body>
+</html>
